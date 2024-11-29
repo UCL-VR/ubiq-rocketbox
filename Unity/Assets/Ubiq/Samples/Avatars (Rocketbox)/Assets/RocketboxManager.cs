@@ -8,7 +8,7 @@ namespace Ubiq.Avatars.Rocketbox
 {
     public class RocketboxManager : MonoBehaviour
     {
-        public RocketboxServer server;
+        public RocketboxServerAddress server;
 
         public IEnumerator LoadAvatarAsync(string name, RocketboxAvatar avatar)
         {

@@ -53,7 +53,7 @@ namespace Ubiq.Avatars.Rocketbox
                     default:
                         throw new System.ArgumentOutOfRangeException();
                 }
-                materials[i].SetTexture("_MainTex", settings.materials[i].albedo);
+                materials[i].mainTexture = settings.materials[i].albedo;
                 materials[i].SetTexture("_BumpMap", settings.materials[i].normal);
             }
             renderer.sharedMaterials = materials;

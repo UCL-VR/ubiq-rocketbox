@@ -7,7 +7,7 @@ using UnityEngine.Networking;
 namespace Ubiq.Avatars.Rocketbox
 {
     [CreateAssetMenu(fileName = "Rocketbox Avatars", menuName = "Ubiq/Rocketbox/Server Settings")]
-    public class RocketboxServer : ScriptableObject
+    public class RocketboxServerAddress : ScriptableObject
     {
         public string URI = "nexus.cs.ucl.ac.uk/rocketbox/AssetBundles";
 
